@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+body {
+  	font-family: "Open Sans", sans-serif;
+  	font-optical-sizing: auto;
+	text-align: justify;
+	background-color: black;
+	color: #fff;
+	width: 100%;
+	margin: auto;
+	height: 100%;
+}
+
+#wrapper {
+	background-color: #333;
+	padding: 3%;
+}
+
+header {
+	width: 90%;
+	margin: auto;
+}
+
+.header-container {
+	width: 70%;
+	margin: auto;
+	padding-bottom: 2%;
+}
+
+h4 {
+	font-weight: 400;
+	margin: 0;
+}
+
+#links {
+	width: 90%;
+	margin: auto;
+}
+
+.container {
+	padding-bottom: 5%;
+	width: 70%;
+	margin: auto;
+}
+
+.file-name {
+	text-transform: uppercase;
+}
+
+a {
+	color: lightgray;
+}
+
+span {
+	text-transform: none;
+}
