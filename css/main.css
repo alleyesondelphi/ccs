@@ -83,11 +83,10 @@ body {
   max-width: 767px;
   margin: 0 auto;
 }
-
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE GRID STYLES ------ ******/
 h1 {
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 2.6rem;
   width: 100%;
   color: #c5cbd6;
   font-style: italic;
@@ -105,6 +104,11 @@ h3 {
 h4 {
   font-weight: 600;
   font-size: 2rem;
+  width: 100%;
+}
+h5 {
+  font-weight: 500;
+  font-size: 1.8rem;
   width: 100%;
 }
 p {
@@ -155,8 +159,7 @@ header {
 header h2 {
   color: cadetblue;
   margin-bottom: 5%;
-	font-weight: 300;
-	font-size: 2rem;
+  font-weight: 300;
 }
 .navbar {
   width: 90%;
@@ -172,35 +175,45 @@ header h2 {
   flex: 1;
 }
 .navbar-items a {
-	 color: #aeb3bd;
-	font-size: 1rem;
+  color: #aeb3bd;
+  font-size: 0.9rem;
 }
-.tagline {
+.mobile-tagline {
   text-align: center;
-  width: 90%;
+  width: 50%;
   margin: auto;
-  padding-top: 10%;
+  padding-top: 7%;
+  font-size: 3.3rem;
 }
-header h3 {
-  margin: 0;
+.responsive-tagline {
+  display: none;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 9%;
+  font-size: 3.3rem;
 }
+header p {
+	color: #aeb3bd;
+	font-size: 1.8rem;
+}
+
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE #CCS STYLES ------ ******/
 #ccs {
   background-color: #f5f5f5;
   padding: 1% 0;
   text-align: center;
 }
-#ccs h2 {
-  margin-bottom: 10%;
-}
 .list {
   margin: 5% 0;
+  width: 100%;
 }
 #ccs a {
   text-decoration: underline;
 }
 #ccs h3 {
   margin: 5% 0;
+  font-weight: 700;
 }
 #ccs p {
   text-align: justify;
@@ -226,11 +239,7 @@ footer {
   margin-top: 1%;
   margin-bottom: 3%;
 }
-#contact h5 {
-  font-weight: 500;
-  font-size: 1.9rem;
-  width: 100%;
-}
+#contact h5 {}
 #envelope {
   margin-top: -1%;
   margin-right: 1%;
@@ -258,9 +267,12 @@ footer a {
     max-width: 991px;
   }
   .content-wrapper {
-    width: 85%;
+    width: 80%;
   }
   /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET HEADER STYLES ------ ******/
+  header {
+    height: 500px;
+  }
   .header-flex-container {
     display: flex;
     flex-flow: row nowrap;
@@ -274,40 +286,49 @@ footer a {
   }
   header h2 {
     margin-bottom: 0;
+    font-size: 1.8rem;
+	  font-weight: 400;
   }
   header h3 {
     margin: 0;
   }
   .navbar {
-    width: 60%;
+    width: 80%;
     text-align: right;
   }
-  .tagline {
-    font-size: 3.5rem;
-    padding: 7% 0;
+  .navbar-items a {
+    font-size: 1.2rem;
+  }
+  .mobile-tagline {
+    display: none;
+  }
+  .responsive-tagline {
+    display: block;
+	font-size: 3.5rem;
   }
   /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET #CCS SECTION STYLES ------ ******/
   #ccs {
-    padding: 10% 0;
-  }
-  #ccs h2 {
-    margin-bottom: 8%;
+    padding: 7% 0;
   }
   .ccs-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 6%;
+    gap: 3%;
   }
   .list {
-    margin: 0 auto;
-    flex: 1;
-	width: 50%;
+    flex: auto;
+	margin: 0;
   }
+	#ccs h3 {
+		font-size: 2rem;
+	}
   #ccs p {
-    width: 100%;
+    width: 90%; 
+	  font-size: 1.4rem;
   }
+
   /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET FOOTER STYLES ------ ******/
   .footer-flex-container {
     display: flex;
@@ -340,18 +361,32 @@ footer a {
   .content-wrapper {
     width: 80%;
   }
-
+  header {
+    height: 600px;
+  }
+  .ccs-container {
+    gap: 5%;
+  }
+	#ccs h3 {
+		font-size: 3rem;
+	}
+	#ccs p {
+		width: 95%;
+		font-size: 1.9rem;
+	}
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ DESKTOP MEDIA QUERIES ------ ******/
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   body {
-    max-width: 1400px;
+    max-width: 1366px;
   }
   .content-wrapper {
     width: 75%;
   }
-
-}
+	  .ccs-container {
+    gap: 7%;
+  }
+}*/
 /* ==========================================================================
      Helper classes
      ========================================================================== */
