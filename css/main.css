@@ -91,11 +91,6 @@ h1 {
   color: #c5cbd6;
   font-style: italic;
 }
-h2 {
-  font-weight: 700;
-  font-size: 2.4rem;
-  width: 100%;
-}
 h3 {
   font-weight: 700;
   font-size: 2.2rem;
@@ -153,16 +148,17 @@ header {
   height: 400px;
 }
 .name-plate {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 header h2 {
   color: cadetblue;
   margin-bottom: 5%;
   font-weight: 300;
+  font-size: 2.4rem;
 }
 .navbar {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 .navbar-items {
@@ -176,7 +172,7 @@ header h2 {
 }
 .navbar-items a {
   color: #aeb3bd;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .mobile-tagline {
   text-align: center;
@@ -201,7 +197,7 @@ header p {
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE #CCS STYLES ------ ******/
 #ccs {
   background-color: #f5f5f5;
-  padding: 1% 0;
+  padding: 10% 0;
   text-align: center;
 }
 .list {
@@ -239,7 +235,9 @@ footer {
   margin-top: 1%;
   margin-bottom: 3%;
 }
-#contact h5 {}
+#contact h5 {
+	
+}
 #envelope {
   margin-top: -1%;
   margin-right: 1%;
@@ -285,27 +283,32 @@ footer a {
     text-align: left;
   }
   header h2 {
-    margin-bottom: 0;
-    font-size: 1.8rem;
+   margin-bottom: 3%;
 	  font-weight: 400;
+  font-size: 2.2rem;
   }
-  header h3 {
-    margin: 0;
+  header h1 {
+    font-size: 3.3rem; 
   }
+	.name-plate {
+		width: 40%;
+	}
   .navbar {
-    width: 80%;
+    width: 95%;
     text-align: right;
   }
   .navbar-items a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .mobile-tagline {
     display: none;
   }
   .responsive-tagline {
     display: block;
-	font-size: 3.5rem;
   }
+	header p {
+		font-size: 2.3rem;
+	}
   /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET #CCS SECTION STYLES ------ ******/
   #ccs {
     padding: 7% 0;
