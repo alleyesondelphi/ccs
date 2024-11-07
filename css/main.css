@@ -145,10 +145,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
-}
-iframe {
-	
+  height: /*400px;*/600px;
 }
 .name-plate {
   width: 100%;
@@ -274,7 +271,7 @@ footer a {
   }
   /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET HEADER STYLES ------ ******/
   header {
-    height: 500px;
+    height: /*500px;*/600px;
   }
   .header-flex-container {
     display: flex;
