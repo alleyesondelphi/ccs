@@ -145,7 +145,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: /*400px;*/600px;
+  height: 400px;
 }
 .name-plate {
   width: 100%;
@@ -271,7 +271,7 @@ footer a {
   }
   /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET HEADER STYLES ------ ******/
   header {
-    height: /*500px;*/600px;
+    height: 500px;
   }
   .header-flex-container {
     display: flex;
