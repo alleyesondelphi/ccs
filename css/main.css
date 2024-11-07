@@ -145,7 +145,10 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 600px;
+}
+iframe {
+	
 }
 .name-plate {
   width: 100%;
@@ -180,6 +183,7 @@ header h2 {
   margin: auto;
   padding-top: 7%;
   font-size: 3.3rem;
+  margin-bottom: 10%;
 }
 .responsive-tagline {
   display: none;
@@ -188,6 +192,7 @@ header h2 {
   margin: auto;
   padding-top: 9%;
   font-size: 3.3rem;
+  margin-bottom: 5%;
 }
 header p {
 	color: #aeb3bd;
