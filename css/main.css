@@ -140,10 +140,8 @@ header, main, footer {
 .total-timer {
 	text-align: center;
 	background-color: #333;
-}
-.total-timer h5 {
 	color: #eee;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE HEADER STYLES ------ ******/
 header {
