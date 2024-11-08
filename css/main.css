@@ -143,6 +143,9 @@ header, main, footer {
 	color: #eee;
 	font-size: 1rem;
 }
+.total-time h5 {
+	text-align: center;
+}
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE HEADER STYLES ------ ******/
 header {
   padding: 5% 0;
