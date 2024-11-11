@@ -130,26 +130,24 @@ img, figure {
 #jury-wrapper {
   width: 100%;
   margin: auto;
-  background-color: lightgray;
+  background-color: #ddd;
   color: #333;
   padding: 5%;
   text-align: center;
 }
 #jury-wrapper h2 {
   font-size: 1.8rem;
-  margin-bottom: 4%;
+  padding-top: 3%;
 }
 #jury-wrapper h3 {
   font-size: 1.4rem;
 }
 #jury-wrapper p {
-  font-size: 1.4rem;
-  margin-bottom: 3%;
-  ;
-}
-#final {
-	width: 80%;
-	margin: auto;
+  font-size: 1.3rem;
+  margin: auto;
+  padding: 5%;
+  width: 90%;
+  text-align: justify;
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE GRID STYLES ------ ******/
 header, main, footer {
