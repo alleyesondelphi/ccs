@@ -147,6 +147,10 @@ img, figure {
   margin-bottom: 3%;
   ;
 }
+#final {
+	width: 80%;
+	margin: auto;
+}
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE GRID STYLES ------ ******/
 header, main, footer {
   width: 100%;
