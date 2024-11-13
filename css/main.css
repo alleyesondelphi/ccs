@@ -127,7 +127,7 @@ img, figure {
   height: auto;
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ VERDICT WATCH ------ ******/
-#jury-wrapper {
+#rickallenjustice {
   width: 100%;
   margin: auto;
   background-color: #ddd;
@@ -135,19 +135,23 @@ img, figure {
   padding: 7%;
   text-align: center;
 }
-#jury-wrapper h2 {
+#rickallenjustice h2 {
   font-size: 1.8rem;
-  padding-top: 3%;
+  margin: auto;
+	padding: 5% 3% 5% 5%;
+	text-align: left;
+	 width: 90%;
 }
-#jury-wrapper h3 {
-  font-size: 1.4rem;
-}
-#jury-wrapper p {
+#rickallenjustice p {
   font-size: 1.3rem;
   margin: auto;
-  padding: 5%;
+  padding: 0% 3% 5% 5%;
   width: 90%;
   text-align: justify;
+}
+#rickallenjustice a {
+	color: cadetblue;
+	font-size: 1.3rem;
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE GRID STYLES ------ ******/
 header, main, footer {
@@ -288,6 +292,15 @@ footer a {
 .footer-navbar-items li {
   display: inline;
   padding: 3%;
+}
+footer p {
+	padding: 5%;
+}
+.delphidocs a {
+	color: cadetblue;
+	font-size: 1.8rem;
+	font-weight: 700;
+	text-decoration: underline;
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MEDIA QUERIES ------ ******/
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET MEDIA QUERIES ------ ******/
