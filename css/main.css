@@ -173,7 +173,7 @@ header, main, footer {
 header {
   padding: 5% 0;
   text-align: center;
-  background: url("../img/monon-high-bridge.png");
+  background: url("../../rickallen/img/monon-high-bridge.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -253,7 +253,7 @@ header p {
 footer {
   padding: 5% 0;
   text-align: center;
-  background: url("../img/contact-img.pn");
+  background: url("../../CCS/img/contact-img.pn");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
