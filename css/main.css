@@ -126,21 +126,26 @@ img, figure {
   max-width: 100%;
   height: auto;
 }
-/****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ VERDICT WATCH ------ ******/
+/****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ NEXT STEPS  ------ ******/
 #rickallenjustice {
   width: 100%;
   margin: auto;
   background-color: #ddd;
   color: #333;
-  padding: 7%;
+  padding: 10% 0%;
   text-align: center;
+}
+.rickallenstice-wrapper {
+	width: 80%;
+	margin: auto;
+	padding: 5%;
 }
 #rickallenjustice h2 {
   font-size: 1.8rem;
   margin: auto;
-	padding: 5% 3% 5% 5%;
-	text-align: left;
-	 width: 90%;
+  padding: 5% 3% 5% 5%;
+  text-align: left;
+  width: 90%;
 }
 #rickallenjustice p {
   font-size: 1.3rem;
@@ -150,8 +155,8 @@ img, figure {
   text-align: justify;
 }
 #rickallenjustice a {
-	color: cadetblue;
-	font-size: 1.3rem;
+  color: cadetblue;
+  font-size: 1.3rem;
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE GRID STYLES ------ ******/
 header, main, footer {
@@ -163,15 +168,6 @@ header, main, footer {
 .content-wrapper {
   width: 90%;
   margin: 0 auto;
-}
-.total-timer {
-  text-align: center;
-  background-color: #333;
-  color: #eee;
-  font-size: 1rem;
-}
-.total-time h5 {
-  text-align: center;
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE HEADER STYLES ------ ******/
 header {
@@ -294,13 +290,13 @@ footer a {
   padding: 3%;
 }
 footer p {
-	padding: 5%;
+  padding: 5%;
 }
 .delphidocs a {
-	color: cadetblue;
-	font-size: 1.8rem;
-	font-weight: 700;
-	text-decoration: underline;
+  color: cadetblue;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: underline;
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MEDIA QUERIES ------ ******/
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET MEDIA QUERIES ------ ******/
