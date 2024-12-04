@@ -227,6 +227,27 @@ header p {
   color: #aeb3bd;
   font-size: 1.8rem;
 }
+/****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE #ticker STYLES ------ ******/
+#ticker {
+	width: 100%;
+}
+.ticker-wrapper {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding: 5% 0;
+}
+.ticker-wrapper p {
+	font-size: 1.5rem;
+	color: darkslategrey;
+	padding: 2%;
+}
+.ticker-wrapper a {
+	font-size: 1.5rem;
+	color: cadetblue;
+	text-decoration: underline;
+	text-transform: lowercase;
+}
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MOBILE #CCS STYLES ------ ******/
 #ccs {
   background-color: #f5f5f5;
@@ -300,7 +321,7 @@ footer p {
 }
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ MEDIA QUERIES ------ ******/
 /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET MEDIA QUERIES ------ ******/
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   body {
     max-width: 991px;
   }
@@ -349,6 +370,13 @@ footer p {
   header p {
     font-size: 2.3rem;
   }
+/****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET #ticker STYLES ------ ******/
+.ticker-wrapper p {
+	font-size: 2.1rem;
+}
+.ticker-wrapper a {
+	font-size: 2.1rem;
+}	
   /****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ TABLET #CCS SECTION STYLES ------ ******/
   #ccs {
     padding: 7% 0;
@@ -406,6 +434,7 @@ footer p {
   header {
     height: 600px;
   }
+	/****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ ****** ------ LAPTOP #ccs STYLES ------ ******/
   .ccs-container {
     gap: 5%;
   }
